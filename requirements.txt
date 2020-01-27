@@ -1,0 +1,11 @@
+pillow
+textwrap
+saya
+gtts
+pydub
+time
+random
+requests
+speech_recognition
+zalgo_text
+json
