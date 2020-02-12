@@ -454,9 +454,6 @@ while True:
                     elif cmd[0] == "/мем":
                         Send_Image(-103083994, photo_list_meme)
 
-                    elif cmd[0] == "/эро":
-                        Send_Image(-129067329, photo_list_ero)
-
                     elif cmd[0] == '/транслит':
                         Transliterate(Reply('text'))
 
