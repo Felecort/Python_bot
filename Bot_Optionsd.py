@@ -27,10 +27,6 @@ album_meme = vk_user.photos.get(owner_id=-103083994, album_id="wall", count=1000
 photo_list_meme = [i["id"] for i in album_meme]
 del(album_meme)
 
-album_ero = vk_user.photos.get(owner_id=-129067329, album_id="wall", count=1000)["response"]["items"]
-photo_list_ero = [i["id"] for i in album_ero]
-del(album_ero)
-
 spam = '👺❤💘🌵🐡🌚😅😜💮🧟‍♂🦸‍♀🙇‍♂🙆‍♂🌳🦑🌺🐉🥳😘📢🤠🥳😎'
 
 comands = """
@@ -45,7 +41,6 @@ V-1.9.20
 /скажи *текст* - озвучка любого текста(в том числе и смайлов)
 /правда *утверждение* - явяется ли утверждение правдой или ложью
 /мем - рандомный мем
-/эро - рандомная эротическая фотография
 /кто *утверждение* - упомянание рандомного человека + утверждение
 /созвать - созыв участников беседы
 \n
