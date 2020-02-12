@@ -97,48 +97,6 @@ def Kill():
     else:
         Send("@id%s(%s) убил @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
 
-
-def Hug():
-    data = (Action())
-    if data[4] == 1:
-        Send("@id%s(%s) обняла @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-    else:
-        Send("@id%s(%s) обнял @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-
-
-
-def Hit():
-    data = (Action())
-    if data[4] == 1:
-        Send("@id%s(%s) уебала @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-    else:
-        Send("@id%s(%s) уебал @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-
-
-def Shoot():
-    data = (Action())
-    if data[4] == 1:
-        Send("@id%s(%s) расстреляла @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-    else:
-        Send("@id%s(%s) расстрелял @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-
-
-def Rape():
-    data = (Action())
-    if data[4] == 1:
-        Send("@id%s(%s) выебала @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-    else:
-        Send("@id%s(%s) выебал @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-
-
-def Fuck():
-    data = (Action())
-    if data[4] == 1:
-        Send("@id%s(%s) сладенько трахнула @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-    else:
-        Send("@id%s(%s) трахнул с любовью @id%s(%s)" % (data[0], data[1], data[2], data[3]), '457239584')
-
-
 def Citation():
     try:
         message = message_obj['reply_message']['text']
@@ -513,21 +471,6 @@ while True:
 
                     elif cmd[0] == '/убить':
                         Kill()
-
-                    elif cmd[0] == '/обнять':
-                        Hug()
-
-                    elif cmd[0] == '/уебать':
-                        Hit()
-
-                    elif cmd[0] == '/расстрелять':
-                        Shoot()
-
-                    elif cmd[0] == '/изнасиловать':
-                        Rape()
-
-                    elif cmd[0] == '/трахнуть':
-                        Fuck()
 
                     elif cmd[0] == '/напугать':
                         Startle()
