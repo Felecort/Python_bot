@@ -1,76 +1,7 @@
 [
     {
-        "peer_id": 2000000006,
+        "peer_id": 2000000001,
         "black_list": [],
         "admins": []
-    },
-    {
-        "peer_id": 2000000008,
-        "black_list": [],
-        "admins": []
-    },
-    {
-        "peer_id": 2000000014,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000009,
-        "black_list": [],
-        "admins": [
-            384150583,
-            313947761
-        ]
-    },
-    {
-        "peer_id": 2000000023,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000027,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000030,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000029,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000032,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000031,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
-    },
-    {
-        "peer_id": 2000000033,
-        "black_list": [],
-        "admins": [
-            384150583
-        ]
     }
 ]
